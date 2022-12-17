@@ -1,0 +1,90 @@
+* {
+  font-family: 'Gaegu', cursive;
+}
+
+body {
+  border : double;
+  border-width: 8px;
+  border-color : #A7A3FF;
+  margin : 25px;
+}
+
+a {
+  color : black;
+  text-decoration: none;
+}
+
+h1 {
+  color: #760BF3 ;
+  text-align : center;
+  border-bottom: 1px solid gray;
+  margin: 0px;
+  padding: 25px;
+  padding-top: 0px;
+}
+
+#article img {
+  width: 300px;
+  height: 300px;
+}
+
+#grid ol{
+  font-size: 1.3em;
+  border-left : 25px solid white;
+  border-right: 1px solid gray;
+  width: 210px;
+  margin: 0;
+  padding: 20px;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 270px 1fr;
+}
+
+#article {
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+#container {
+  text-align: center;
+}
+
+#container img{
+  width: 500px;
+  height: 500px;
+}
+
+
+ul {
+  font-size: 23px;
+}
+
+#active {
+    color: #984BF2;
+    text-decoration-line: underline;
+  }
+
+.saw {
+    color: black;
+    text-decoration-line: none;
+  }
+
+@media (max-width: 800px) {
+  #grid {
+    display: block;
+  }
+
+  #grid ol {
+    border-right: none;
+  }
+
+  #article{
+    border-left: none;
+  }
+
+  h1 {
+    border-bottom: none;
+  }
+}
